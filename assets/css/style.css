@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0 ;
+    padding: 0;
+    /* font-family: 'Cormorant Garamond', serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
+
+
+  }
+
+  ul li{
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .container{
+    width: 47%;
+    margin: auto;
+    padding: 10px 20px;
+    background-image: linear-gradient(to right top, #84441a, #89572a, #8d693d, #927a52, #988a69, #9b9678, #a0a288, #a6ae99, #a8baa7, #a9c6b7, #acd2c9, #b0dddc);
+  }
+  .top-header h1{
+      font-weight:500;
+       text-align: center;
+       font-size: 40px;
+    
+  }
+  header{
+    width: 85%;
+    display: flex;
+    padding: 15px 0;
+  }
+  header .employee-img{
+    
+    object-fit: cover;
+
+  }
+  header img{
+    object-fit: cover;
+    height: 160px;
+    width: 127px;
+    animation: rotateanimation 5s;
+  }
+  @keyframes rotateanimation{
+    100% {transform: rotate(720deg);}
+  }
+
+  .employee-info{
+    margin-left: 30px;
+  }
+
+.birth-date{
+padding: 10px 0;
+  align-items: center;
+  justify-self: start;
+}
+.birth-date label{
+  padding-right: 40px;
+}
+.birth-date input{
+  padding: 5px 7px;
+  background: #B0B6BB;
+  cursor: pointer;
+  border: 1px solid red;
+}
+.eng-level{
+  padding: 10px 0;
+}
+.eng-level p{
+  padding: 5px 0;
+}
+.eng-level label{
+  padding-right: 30px;
+  /* font-weight: 900; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  
+}
+
+.key-skills p{
+  padding: 10px 0;
+}
+.key-skills form{
+  padding: 10px 0;
+}
+.key-skills form input,button {
+  padding: 5px 7px;
+  background: #B0B6BB;
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.lang-sector{
+  padding: 20px 0;
+}
+
+.lang-sector label {
+padding-right: 40px;
+}
+.lang-sector select {
+padding: 5px 7px;
+}
+
+.salary input{
+  padding: 5px 7px;
+  background: #B0B6BB;
+  cursor: pointer;
+  border: 1px solid red;
+}
+.salary label {
+  padding-right: 40px;
+  }
+
+  .other-skills label{
+    padding-right: 30px;
+  }
+  .other-skills p{
+    padding: 20px 0;
+  }
+
+.education{
+  padding: 10px 0;
+}
+  .education table{
+    margin: 10px 0;
+    width: 500px;
+}
+.education table,th,td{
+    border: 1px solid black;
+    background: #B0B6BB;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.row1:hover{
+  color: green; 
+}
+.row2:hover{
+  color: green; 
+}
+.row3:hover{
+  color: green; 
+}
+.row4:hover{
+  color: green; 
+}
